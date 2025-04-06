@@ -16,10 +16,13 @@
             </ul>
         </div>
     </div>
-    <div class="breaking-news">
-        <p><span class="to-part">breaking-news: </span></p>
-        <p><span>&nbsp;&nbsp;&nbsp;</span></p>
-        <p> This is a blog template! This page was created with the help of Felipe Aguiar's tutorial.</p>
+    <div class="breaking-news-container">
+        <div class="breaking-news-label">
+            <p><span class="to-part">Breaking News: </span></p>
+        </div>
+        <div class="breaking-news-content">
+            <p class="news" [routerLink]="['content', Id]">{{ movingNews }}</p>
+            <p class="news" [routerLink]="['content', Id]">{{ movingNews }}</p>
+        </div>
     </div>
 </div>
-  
