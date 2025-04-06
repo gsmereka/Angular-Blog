@@ -5,3 +5,14 @@
     display: flex;
     flex-direction: row;
   }
+
+.articles__main {
+  max-width: 50%;
+}
+.articles__others {
+  max-width: 50%;
+}
+
+.testing {
+  display: none;
+}

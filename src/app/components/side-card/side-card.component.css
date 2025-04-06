@@ -1,5 +1,5 @@
 .container__side-card{
-    margin-bottom: 15px;
+    margin-bottom: 5px;
   
     @media(min-width: 1000px) {
       width: 700px;
@@ -9,21 +9,24 @@
   .container__side-card-content{
     display: flex;
     flex-direction: row;
-    padding: 20px;
+    /* padding: 20px; */
     box-sizing: border-box;
   }
 
   .container__side-card-description{
     display: flex;
     flex-direction:column;
-    padding: 20px;
+    /* padding: 20px; */
     box-sizing: border-box;
   }
   
   .side-card__photo > img {
     width: 200px;
     min-width: 200px;
+    min-height: 200px;
     margin-right: 20px;
+    overflow: hidden;
+    object-fit: cover;
   }
   
   .side-card__title {
