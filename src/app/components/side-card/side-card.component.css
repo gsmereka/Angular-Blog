@@ -1,70 +1,74 @@
+* {
+  justify-content: left;
+}
+
 .container__side-card{
-    padding-top: 20px;
-  }
-  
-  .container__side-card-content{
-    display: flex;
-    flex-direction: row;
-    box-sizing: border-box;
-  }
+  padding-top: 20px;
+}
 
-  .container__side-card-description{
-    padding-top: 20px;
-    display: flex;
-    flex-direction:column;
-    box-sizing: border-box;
-  }
-  
-  .side-card__photo > img {
-    border-radius: 15px;
-    width: 190px;
-    min-width: 190px;
-    min-height: 170px;
-    margin-right: 20px;
-    overflow: hidden;
-    object-fit: cover;
-  }
-  
-  .side-card__title {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .side-card__title > h1 {
-    font-size: 19px;
-  }
-  
-  .side-card__description {
-    padding-top: 12px;
-    color: gray;  
-    font-size: 14px;
-  }
-  
-  .side-card__time {
-    display: flex;
-    flex-direction: row;
-    padding-top: 40px;
-    font-size: 12px;
-  }
+.container__side-card-content{
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+}
 
-  .container__side-card .side-card__description a,
-  .container__side-card .side-card__time a {
-    color: inherit;
-    text-decoration: none;
-  }
-  
-  .container__side-card .side-card__description {
-    color: rgb(23, 23, 23);
-  }
-  
-  .container__side-card .side-card__time {
-    color: rgb(23, 23, 23);
-  }
-  
-  .emoji-image {
-    width: 16px;
-    height: 16px;
-    margin-right: 7px;
-    border-radius: 50%;
-  }
+.container__side-card-description{
+  padding-top: 20px;
+  display: flex;
+  flex-direction:column;
+  box-sizing: border-box;
+}
+
+.side-card__photo > img {
+  border-radius: 15px;
+  width: 190px;
+  min-width: 190px;
+  min-height: 170px;
+  margin-right: 20px;
+  overflow: hidden;
+  object-fit: cover;
+}
+
+.side-card__title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.side-card__title > h1 {
+  font-size: 19px;
+}
+
+.side-card__description {
+  padding-top: 12px;
+  color: gray;  
+  font-size: 14px;
+}
+
+.side-card__time {
+  display: flex;
+  flex-direction: row;
+  padding-top: 40px;
+  font-size: 12px;
+}
+
+.container__side-card .side-card__description a,
+.container__side-card .side-card__time a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.container__side-card .side-card__description {
+  color: rgb(23, 23, 23);
+}
+
+.container__side-card .side-card__time {
+  color: rgb(23, 23, 23);
+}
+
+.emoji-image {
+  width: 16px;
+  height: 16px;
+  margin-right: 7px;
+  border-radius: 50%;
+}
