@@ -1,78 +1,87 @@
-.menu-bar {
+* {
+    font-weight: inherit;
     background-color: inherit;
-    background-color: black;
+    text-shadow: 2px 2px 4px black;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.menu-bar {
+    padding: 10px;
+    padding-left: 70px;
+    padding-right: 70px;
+    background: linear-gradient(to bottom, black, rgb(38, 37, 37));
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    padding: 10px;
 }
 
 .menu-bar-options {
-    background-color: inherit;
     display: flex;
     justify-content: flex-end;
 }
 
 .menu-bar-options > ul {
-    background-color: inherit;
     display: flex;
-    margin: 0;
-    padding: 0;
 }
 
 .menu-bar-options > ul > li {
-    background-color: inherit;
-    margin-right: 20px;
     list-style: none;
 }
 
-* {
+.menu-bar-options > ul > li > a{
+    color: aliceblue;
+    font-size: 15px;
+    margin-left: 40px;
     background-color: inherit;
-}
-.menu-bar-options > ul > li > span {
-    background-color: inherit;
-    margin-right: 20px;
+    text-decoration: none;
 }
 
-.menu-bar-options > ul > li > a {
+.menu-bar-options > ul > li > span {
     color: aliceblue;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
     background-color: inherit;
-    margin-right: 20px;
+    text-decoration: none;
+    margin-left: 10px;
+    display: inline-block;
+    font-size: 10px;
+    transform: scaleX(1.5);
 }
 
 .menu-bar-icon {
-    background-color: inherit;
     display: flex;
     align-items: center;
 }
 
 .menu-bar-icon h1 {
-    background-color: inherit;
-    font-size: 24px;
+    font-weight: bold;
+    font-size: 36px;
     color: white;
-    margin: 0;
-}
-
-.to-part {
-    background-color: inherit;
-    color: orange;
 }
 
 .breaking-news {
-    padding: 10px;
+    font-size: 14px;
+    padding: 14px;
+    padding-left: 70px;
+    padding-right: 70px;
     background-color: #333;
     display: flex;
     flex-direction: row;
     justify-content: left;
-    
 }
 
 .breaking-news > p {
     color: white;
-    background-color: inherit;
 }
 
+.to-part {
+    color: #EA572E;
+}
 
 @media (max-width: 768px) {
     .menu-bar {
