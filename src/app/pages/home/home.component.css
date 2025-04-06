@@ -1,5 +1,7 @@
 
-.container__articles {
+.container__articles{
     padding-left: 70px;
     padding-right: 70px;
-}
+    display: flex;
+    flex-direction: row;
+  }

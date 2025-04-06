@@ -1,0 +1,35 @@
+.container__side-card{
+    margin-bottom: 15px;
+  
+    @media(min-width: 1000px) {
+      width: 700px;
+    }
+  }
+  
+  .container__side-card-content{
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .side-card__photo > img {
+    width: 200px;
+    min-width: 200px;
+    margin-right: 20px;
+  }
+  
+  .side-card__title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .side-card__title > h1 {
+    font-size: 16px;
+  }
+  
+  .container__side-card__separator{
+    margin-top: 10px;
+  }
+  

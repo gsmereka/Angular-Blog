@@ -1,1 +1,22 @@
-<p>side-card works!</p>
+<div class="container__side-card">
+
+    <div class="container__side-card-content">
+      <div class="side-card__photo">
+        <img
+          src="{{ photoCover }}"
+          alt=""
+          srcset=""
+        >
+      </div>
+  
+      <div class="side-card__title">
+        <h1><a [routerLink]="['content', Id]" >{{ cardTitle }}</a></h1>
+      </div>
+    </div>
+  
+    <div class="container__side-card__separator">
+      <hr>
+    </div>
+  
+  </div>
+  

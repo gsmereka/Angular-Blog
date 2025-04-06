@@ -1,11 +1,28 @@
-import { Component } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
+import { RouterModule } from '@angular/router';
 
 @Component({
   selector: 'app-side-card',
-  imports: [],
+  imports: [RouterModule],
   templateUrl: './side-card.component.html',
   styleUrl: './side-card.component.css'
 })
-export class SideCardComponent {
 
-}
+export class SideCardComponent implements OnInit {
+
+    @Input()
+    photoCover:string = ""
+  
+    @Input()
+    cardTitle:string = ""
+  
+    @Input()
+    Id:string="0"
+  
+    constructor() { }
+  
+    ngOnInit(): void {
+    }
+  
+  }
+  
