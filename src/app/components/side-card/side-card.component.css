@@ -42,6 +42,29 @@
   }
   
   .side-card__time {
+    display: flex;
+    flex-direction: row;
     padding-top: 40px;
     font-size: 12px;
+  }
+
+  .container__side-card .side-card__description a,
+  .container__side-card .side-card__time a {
+    color: inherit;
+    text-decoration: none;
+  }
+  
+  .container__side-card .side-card__description {
+    color: rgb(23, 23, 23);
+  }
+  
+  .container__side-card .side-card__time {
+    color: rgb(23, 23, 23);
+  }
+  
+  .emoji-image {
+    width: 16px;
+    height: 16px;
+    margin-right: 7px;
+    border-radius: 50%;
   }

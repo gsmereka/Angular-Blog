@@ -24,7 +24,9 @@ export class SideCardComponent implements OnInit {
 
     @Input()
     cardTime:string ="9 minutes"
-  
+    
+    iconLink: string = "https://www.pngfind.com/pngs/m/99-999153_clock-4pm-clock-4pm-clock-4pm-clock-sign.png"
+
     constructor() { }
   
     ngOnInit(): void {

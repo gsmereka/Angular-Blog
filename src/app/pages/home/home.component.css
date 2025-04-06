@@ -11,6 +11,7 @@
   max-width: 60%;
 }
 .articles__others {
+  justify-content: center;
   max-width: 40%;
 }
 
