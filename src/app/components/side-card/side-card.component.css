@@ -10,7 +10,6 @@
 
   .container__side-card-description{
     padding-top: 20px;
-    padding-bottom: 20px;
     display: flex;
     flex-direction:column;
     box-sizing: border-box;
@@ -20,7 +19,7 @@
     border-radius: 15px;
     width: 190px;
     min-width: 190px;
-    min-height: 180px;
+    min-height: 170px;
     margin-right: 20px;
     overflow: hidden;
     object-fit: cover;
@@ -33,7 +32,16 @@
   }
   
   .side-card__title > h1 {
-    font-size: 16px;
+    font-size: 19px;
   }
   
+  .side-card__description {
+    padding-top: 12px;
+    color: gray;  
+    font-size: 14px;
+  }
   
+  .side-card__time {
+    padding-top: 40px;
+    font-size: 12px;
+  }

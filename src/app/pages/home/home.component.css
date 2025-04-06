@@ -1,5 +1,6 @@
 
 .container__articles{
+    /* border: 2px solid black; */
     padding-left: 60px;
     padding-right: 60px;
     display: flex;
