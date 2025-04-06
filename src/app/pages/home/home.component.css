@@ -1,16 +1,16 @@
 
 .container__articles{
-    padding-left: 70px;
-    padding-right: 70px;
+    padding-left: 60px;
+    padding-right: 60px;
     display: flex;
     flex-direction: row;
   }
 
 .articles__main {
-  max-width: 50%;
+  max-width: 60%;
 }
 .articles__others {
-  max-width: 50%;
+  max-width: 40%;
 }
 
 .testing {
