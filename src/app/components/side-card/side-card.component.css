@@ -12,6 +12,13 @@
     padding: 20px;
     box-sizing: border-box;
   }
+
+  .container__side-card-description{
+    display: flex;
+    flex-direction:column;
+    padding: 20px;
+    box-sizing: border-box;
+  }
   
   .side-card__photo > img {
     width: 200px;
@@ -29,7 +36,4 @@
     font-size: 16px;
   }
   
-  .container__side-card__separator{
-    margin-top: 10px;
-  }
   

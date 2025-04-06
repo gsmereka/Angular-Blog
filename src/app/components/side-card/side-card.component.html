@@ -1,22 +1,18 @@
 <div class="container__side-card">
-
-    <div class="container__side-card-content">
-      <div class="side-card__photo">
-        <img
-          src="{{ photoCover }}"
-          alt=""
-          srcset=""
-        >
-      </div>
-  
+  <div class="container__side-card-content">
+    <div class="side-card__photo">
+      <img src="{{ photoCover }}" alt="" srcset="">
+    </div>
+    <div class="container__side-card-description">
       <div class="side-card__title">
-        <h1><a [routerLink]="['content', Id]" >{{ cardTitle }}</a></h1>
+        <h1><a [routerLink]="['content', Id]">{{ cardTitle }}</a></h1>
+      </div>
+      <div class="side-card__description">
+        <p><a [routerLink]="['content', Id]">{{ cardDescription }}</a></p>
+      </div>
+      <div class="side-card__time">
+        <p><a [routerLink]="['content', Id]">{{ cardTime }}</a></p>
       </div>
     </div>
-  
-    <div class="container__side-card__separator">
-      <hr>
-    </div>
-  
   </div>
-  
+</div>

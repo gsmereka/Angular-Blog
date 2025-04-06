@@ -19,6 +19,12 @@ export class SideCardComponent implements OnInit {
     @Input()
     Id:string="0"
   
+    @Input()
+    cardDescription:string =""
+
+    @Input()
+    cardTime:string ="9 minutes"
+  
     constructor() { }
   
     ngOnInit(): void {
