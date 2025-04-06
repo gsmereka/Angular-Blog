@@ -42,4 +42,4 @@ testem.log
 Thumbs.db
 
 # Scripts
-./commit.sh
+commit.sh
